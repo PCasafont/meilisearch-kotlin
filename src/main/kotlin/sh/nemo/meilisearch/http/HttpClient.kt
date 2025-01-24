@@ -24,7 +24,7 @@ internal fun httpClient(config: Meilisearch.MeilisearchClientConfig) =
             json(config.json)
         }
 
-        install(Logging)
+        //install(Logging)
 
         defaultRequest {
             host = config.host

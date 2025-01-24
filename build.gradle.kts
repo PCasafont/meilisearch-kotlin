@@ -9,14 +9,14 @@ plugins {
 }
 
 group = "sh.nemo"
-version = "0.5.0"
+version = "0.5.1"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    api(platform("io.ktor:ktor-bom:3.0.1"))
+    api(platform("io.ktor:ktor-bom:3.0.3"))
 
     api("io.ktor:ktor-client-core")
     api("io.ktor:ktor-client-cio")
